@@ -1,0 +1,87 @@
+{
+    "rathalos": {
+        "id": "m_001",
+        "nombre": "Rathalos",
+        "vida_maxima": 1200,
+        "agilidad": 18,
+        "stamina": 800,
+        "regen_stamina": 40,
+        "ataques": [
+            {
+                "nombre": "Bola de Fuego",
+                "potencia": 80,
+                "naturaleza": "distancia",
+                "elemento": "fuego",
+                "costo_stamina": 60
+            },
+            {
+                "nombre": "Garrazo Venenoso",
+                "potencia": 50,
+                "naturaleza": "cortante",
+                "costo_stamina": 40
+            }
+        ],
+        "partes": {
+            "cabeza": {
+                "vida": 300,
+                "tasa_esquive": 15,
+                "def_impacto": 1.2,
+                "def_cortante": 1.0
+            },
+            "alas": {
+                "vida": 250,
+                "tasa_esquive": 25,
+                "def_cortante": 1.3,
+                "def_impacto": 0.8
+            },
+            "torso": {
+                "vida": 600,
+                "tasa_esquive": 5,
+                "def_cortante": 0.9,
+                "def_impacto": 0.9
+            }
+        }
+    },
+    "tigrex": {
+        "id": "m_002",
+        "nombre": "Tigrex",
+        "vida_maxima": 1600,
+        "agilidad": 9,
+        "stamina": 1200,
+        "regen_stamina": 30,
+        "ataques": [
+            {
+                "nombre": "Embestida Brutal",
+                "potencia": 110,
+                "naturaleza": "impacto",
+                "costo_stamina": 120
+            },
+            {
+                "nombre": "Mordisco Feroz",
+                "potencia": 60,
+                "naturaleza": "punzante",
+                "costo_stamina": 45
+            }
+        ],
+        "partes": {
+            "cabeza": {
+                "vida": 400,
+                "tasa_esquive": 10,
+                "def_impacto": 1.5,
+                "def_cortante": 1.2
+            },
+            "patas_delanteras": {
+                "vida": 500,
+                "tasa_esquive": 15,
+                "def_cortante": 1.0,
+                "def_impacto": 1.0
+            },
+            "torso": {
+                "vida": 800,
+                "tasa_esquive": 2,
+                "def_cortante": 0.8,
+                "def_impacto": 0.7
+            }
+        }
+    }
+}
